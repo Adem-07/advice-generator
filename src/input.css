@@ -18,6 +18,15 @@
 
 @layer base {
   body {
-    @apply font-Manrope;
+    @apply font-Manrope bg-n-950 w-full h-screen flex items-center justify-center px-8;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-n-900 w-full max-w-sm min-h-52 rounded-xl flex flex-col items-center p-7 relative;
+  }
+  .btn {
+    @apply text-3xl w-10 h-10 bg-priym-300 rounded-full absolute -bottom-5 hover:shadow-green-300 hover:shadow-[0_0_25px_8px];
   }
 }
