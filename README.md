@@ -1,6 +1,5 @@
-# Frontend Mentor - Advice generator app solution
+# Advice generator app solution
 
-- Advice generator
 
 ## Table of contents
 
